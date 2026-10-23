@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Филипп Подольский — аналитик данных">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Filipp Podolskii — Data Analyst, BI">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -51,9 +51,9 @@
 
   <!-- текст -->
   <g font-family="'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <text x="64" y="128" font-size="56" font-weight="700" fill="#ffffff">Филипп Подольский</text>
-    <text x="66" y="178" font-size="28" font-weight="600" fill="#93c5fd">Аналитик данных · BI</text>
-    <text x="66" y="226" font-size="21" fill="#cbd5e1">SQL · Power BI · Excel / Power Query · 1С · Python</text>
-    <text x="66" y="262" font-size="18" fill="#94a3b8">Пермь · открыт к удалённой работе · fpodolskii.com</text>
+    <text x="64" y="128" font-size="56" font-weight="700" fill="#ffffff">Filipp Podolskii</text>
+    <text x="66" y="178" font-size="28" font-weight="600" fill="#93c5fd">Data Analyst · BI</text>
+    <text x="66" y="226" font-size="21" fill="#cbd5e1">SQL · Power BI · Excel / Power Query · 1C · Python</text>
+    <text x="66" y="262" font-size="18" fill="#94a3b8">Perm, Russia · open to remote work · fpodolskii.com</text>
   </g>
 </svg>
