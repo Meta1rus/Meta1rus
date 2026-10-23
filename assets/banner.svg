@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Филипп Подольский — аналитик данных">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="barHi" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#facc15" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+
+  <!-- сетка -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+    <line x1="760" y1="70" x2="1220" y2="70"/>
+    <line x1="760" y1="130" x2="1220" y2="130"/>
+    <line x1="760" y1="190" x2="1220" y2="190"/>
+    <line x1="760" y1="250" x2="1220" y2="250"/>
+  </g>
+
+  <!-- столбцы -->
+  <g>
+    <rect x="780" y="190" width="42" height="60" rx="6" fill="url(#bar)"/>
+    <rect x="842" y="160" width="42" height="90" rx="6" fill="url(#bar)"/>
+    <rect x="904" y="175" width="42" height="75" rx="6" fill="url(#bar)"/>
+    <rect x="966" y="125" width="42" height="125" rx="6" fill="url(#bar)"/>
+    <rect x="1028" y="140" width="42" height="110" rx="6" fill="url(#bar)"/>
+    <rect x="1090" y="95" width="42" height="155" rx="6" fill="url(#bar)"/>
+    <rect x="1152" y="70" width="42" height="180" rx="6" fill="url(#barHi)"/>
+  </g>
+
+  <!-- линия тренда -->
+  <polyline points="801,170 863,148 925,152 987,110 1049,118 1111,80 1173,52"
+            fill="none" stroke="#f8fafc" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+  <g fill="#0b1220" stroke="#f8fafc" stroke-width="3">
+    <circle cx="801" cy="170" r="5"/>
+    <circle cx="863" cy="148" r="5"/>
+    <circle cx="925" cy="152" r="5"/>
+    <circle cx="987" cy="110" r="5"/>
+    <circle cx="1049" cy="118" r="5"/>
+    <circle cx="1111" cy="80" r="5"/>
+  </g>
+  <circle cx="1173" cy="52" r="7" fill="#facc15" stroke="#f8fafc" stroke-width="3"/>
+
+  <!-- текст -->
+  <g font-family="'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="64" y="128" font-size="56" font-weight="700" fill="#ffffff">Филипп Подольский</text>
+    <text x="66" y="178" font-size="28" font-weight="600" fill="#93c5fd">Аналитик данных · BI</text>
+    <text x="66" y="226" font-size="21" fill="#cbd5e1">SQL · Power BI · Excel / Power Query · 1С · Python</text>
+    <text x="66" y="262" font-size="18" fill="#94a3b8">Пермь · открыт к удалённой работе · fpodolskii.com</text>
+  </g>
+</svg>
